@@ -1,13 +1,13 @@
 # Best_Price_Insurance
 This repository is part of a personal project to create a car insurance website API in an MVC format.
 
-#### -[About_The_Project](#Welcome Page)
+#### -[About The Project](#Welcome_Page)
 
-#### -[Admin_Page](#Admin Page)
+#### -[Admin Page](#Admin_Page)
 
-#### -[Api_Controller](#Api Controller)
+#### -[Api Controller](#Api_Controller)
 
-#### -[Home_Controller](#Home Controller)
+#### -[Home Controller](#Home_Controller)
 
 
 
