@@ -75,6 +75,7 @@ Here you can see the new data added into my SQL database.
 Here is my Admin page code where I created the account cards. I used Ajax, and jQuery to use the API requests on the page
 
 input text field
+
 ![alt text](https://github.com/Tmc802/Best_Price_Insurance/blob/master/InsurancePolicyApi/BP%20insurance%20images/adminTextSearchCode.jpg)
 
 Remove button
