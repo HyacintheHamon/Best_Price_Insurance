@@ -22,9 +22,11 @@ When the user opens the page they are brought to the welcome screen and then bro
 ![alt text](https://github.com/Tmc802/Best_Price_Insurance/blob/master/InsurancePolicyApi/BP%20insurance%20images/BPpolicyForm.jpg)
 
 When the user would input the information and submit they would be taken to a new page with their estimated new policy quote. The user information is also logged into the database.
+
 ![alt text](https://github.com/Tmc802/Best_Price_Insurance/blob/master/InsurancePolicyApi/BP%20insurance%20images/BPpolicyFormWithData.jpg)
 
 The ViewQuote page
+
 ![alt text](https://github.com/Tmc802/Best_Price_Insurance/blob/master/InsurancePolicyApi/BP%20insurance%20images/BPviewQuote.jpg)
 
 [Back To Top](#Best_Price_Insurance)
@@ -40,9 +42,11 @@ The admin of the website could go to a private website not viewable to customers
 With the Search button located next to the input field, an admin could see how all client information or search for individual Id's unique to a clients account.
 
 Here I logged the information to the console. In the first search there is no specified ID. 
+
 ![alt text](https://github.com/Tmc802/Best_Price_Insurance/blob/master/InsurancePolicyApi/BP%20insurance%20images/initialAdminGetRequest.jpg)
 
 In the second search an ID was specified.
+
 ![alt text](https://github.com/Tmc802/Best_Price_Insurance/blob/master/InsurancePolicyApi/BP%20insurance%20images/adminGetRequestWithId.jpg)
 
 ![alt text](https://github.com/Tmc802/Best_Price_Insurance/blob/master/InsurancePolicyApi/BP%20insurance%20images/adminGetRequestWithIdResult.jpg)
@@ -74,9 +78,11 @@ input text field
 ![alt text](https://github.com/Tmc802/Best_Price_Insurance/blob/master/InsurancePolicyApi/BP%20insurance%20images/adminTextSearchCode.jpg)
 
 Remove button
+
 ![alt text](https://github.com/Tmc802/Best_Price_Insurance/blob/master/InsurancePolicyApi/BP%20insurance%20images/adminRemoveButtonCode.jpg)
 
 Admin Page jQuery and Ajax
+
 ![alt text](https://github.com/Tmc802/Best_Price_Insurance/blob/master/InsurancePolicyApi/BP%20insurance%20images/AdminPageAjaxJqueryCode.jpg)
 
 
@@ -90,12 +96,15 @@ Admin Page jQuery and Ajax
 Here is the code for my API controller. For this project I only used Get requests and a Delete request. For the scope of this project I felt those are the only ones that I needed. In this project I used an entity framework controller on the api.
 
 This is the code I used for my get requests
+
 ![alt text](https://github.com/Tmc802/Best_Price_Insurance/blob/master/InsurancePolicyApi/BP%20insurance%20images/ApiControllerGetRequests.jpg)
 
 This is the code I used for my Delete request
+
 ![alt text](https://github.com/Tmc802/Best_Price_Insurance/blob/master/InsurancePolicyApi/BP%20insurance%20images/ApiControllerDeleteRequest.jpg)
 
 In my routing config file I stuck with the default route. In the past i've used attribute routing but did not feel it to be necessary in this project.
+
 ![alt text](https://github.com/Tmc802/Best_Price_Insurance/blob/master/InsurancePolicyApi/BP%20insurance%20images/ApiRouteFile.jpg)
 
 [Back To Top](#Best_Price_Insurance)
@@ -103,12 +112,15 @@ In my routing config file I stuck with the default route. In the past i've used 
 # **Home_Controller**
 
 Inside of my Home Controller I wrote the logic that proccessed the form information and stored it into the database. This home controller also sent the data back out to the ViewQuote, and Admin pages.
+
 ![alt text](https://github.com/Tmc802/Best_Price_Insurance/blob/master/InsurancePolicyApi/BP%20insurance%20images/BPHomeController.jpg)
 
-Here is where the code was added to the database
+Here is where the code was added to the database.
+
 ![alt text](https://github.com/Tmc802/Best_Price_Insurance/blob/master/InsurancePolicyApi/BP%20insurance%20images/BPHomeControllerSqlQueryCode.jpg)
 
-and here is where the admin page logic was performed
+and here is where the admin page logic was performed.
+
 ![alt text](https://github.com/Tmc802/Best_Price_Insurance/blob/master/InsurancePolicyApi/BP%20insurance%20images/BPHomeControllerAdminPageLogic.jpg)
 
 [Back To Top](#Best_Price_Insurance)
