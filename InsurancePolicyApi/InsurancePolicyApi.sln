@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsurancePolicyApi", "InsurancePolicyApi\InsurancePolicyApi.csproj", "{437348D2-6421-4855-87CF-8909F88F601E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{437348D2-6421-4855-87CF-8909F88F601E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{437348D2-6421-4855-87CF-8909F88F601E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{437348D2-6421-4855-87CF-8909F88F601E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{437348D2-6421-4855-87CF-8909F88F601E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2D5251A3-ACAB-469B-939A-6BF966C096A5}
+	EndGlobalSection
+EndGlobal

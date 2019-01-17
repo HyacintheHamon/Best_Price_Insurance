@@ -1,0 +1,113 @@
+﻿@using CarInsurance.Models
+@model List<CarInsurance.Models.Customer>
+
+<script src="~/Scripts/jquery-3.3.1.min.js"></script>
+
+<div class="row no-gutters m-3">
+    <div class="card col-sm-12 col-md-10 col-lg-6 mx-auto shadow">
+        <div class="card-header">
+            <h1>Customer Database</h1>
+        
+
+        <div class="card-body">
+            <!-- Search box and button-->
+            <input type="text" id="searchId" />
+            <button class="btn-info" onclick="searchCustomerData()">Search Customer Id</button>
+            
+                @foreach (var customer in Model)
+                {
+                    <div id="AccountCard" class="card accountCard" style="width: 18rem;" style="display: none;">
+                        <br />
+                        <ul class="list-group list-group-flush">
+                            <li>
+                                <div id="AccountId" class="col">
+                                    <b>Account Id:</b> @customer.Id
+                                </div>
+                            </li>
+                            <li>
+                                <div class="col">
+                                    <b>First Name:</b> @customer.firstName
+                                </div>
+                            </li>
+                            <li>
+                                <div class="col">
+                                    <b>Last Name:</b> @customer.lastName
+                                </div>
+                            </li>
+                            <li>
+                                <div class="col">
+                                    <b>DOB:</b>   @customer.DOB.Month /
+                                    @customer.DOB.Day /
+                                    @customer.DOB.Year
+                                </div>
+                            </li>
+                            <li>
+                                <div class="col">
+                                    <b>Car Year:</b> @customer.carYear
+                                </div>
+                            </li>
+                            <li>
+                                <div class="col">
+                                    <b>Car Make:</b>  @customer.carMake
+                                </div>
+                            </li>
+                            <li>
+                                <div class="col">
+                                    <b>Car Model:</b>  @customer.carModel
+                                </div>
+                            </li>
+                            <li>
+                                <div class="col">
+                                    <b>DUI?:</b>   @customer.DUI
+                                </div>
+                            </li>
+                            <li>
+                                <div class="col">
+                                    <b># of Speeding Tickets:</b> @customer.speedingTickets
+                                </div>
+                            </li>
+                            <li>
+                                <div class="col">
+                                    <b>Would you like full coverage?:</b> @customer.fullCoverage
+                                </div>
+                            </li>
+                        </ul>
+                        <button data-model-id="model-id" onclick="DeleteAccount()" class="btn-danger" type="submit">Delete Account</button>
+                    </div>
+                    <br />
+
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+
+
+    function searchCustomerData() {  
+        $.ajax({
+            type: "Get",
+            dataType: "JSON",
+            url: "/api/Customers/" + $("#searchId").val(),
+            success: function(result) {
+                console.info(result);
+            } 
+    });
+    }
+
+
+
+    function DeleteAccount() {
+        $.ajax({
+            type: "DELETE",
+            dataType: "JSON",
+            url: "/api/Customers/" + $("#searchId").val(),
+            success: function (result) {
+                alert("Account Successfully Deleted");
+                $("#AccountCard").
+                hide();
+            }
+        });
+    }
+</script>
