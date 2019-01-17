@@ -1,19 +1,17 @@
 # Best_Price_Insurance
 This repository is part of a personal project to create a car insurance website API in an MVC format.
 
-#### -[About_The_Project](#Welcome_Page)
+#### -[About The_Project](#Welcome Page)
 
-#### -[Admin_Page](#Admin_Page)
+#### -[Admin Page](#Admin Page)
 
-#### -[Api_Controller](#Api_Controller)
+#### -[Api Controller](#Api Controller)
 
-#### -[Home_Controller](#Home_Controller)
-
-#### -[Atrribute Routing](#AttributeRouting)
+#### -[Home Controller](#Home Controller)
 
 
 
-# **Welcome_Page**
+# **Welcome Page**
 
 I decided to create a auto policy website that would take in information from a user and add it to a given database. Part of this project was to apply learned skills from a previous API project to a larger project and database.
 
@@ -102,7 +100,7 @@ In my routing config file I stuck with the default route. In the past i've used 
 
 [Back To Top](#Web_Api_Demo)
 
-# **Home_Controller**
+# **Home Controller**
 
 Inside of my Home Controller I wrote the logic that proccessed the form information and stored it into the database. This home controller also sent the data back out to the ViewQuote, and Admin pages.
 ![alt text](https://github.com/Tmc802/Best_Price_Insurance/blob/master/InsurancePolicyApi/BP%20insurance%20images/BPHomeController.jpg)
