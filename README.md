@@ -11,7 +11,7 @@ This repository is part of a personal project to create a car insurance website 
 
 
 
-# **Welcome Page**
+# **Welcome_Page**
 
 I decided to create a auto policy website that would take in information from a user and add it to a given database. Part of this project was to apply learned skills from a previous API project to a larger project and database.
 
@@ -29,7 +29,7 @@ The ViewQuote page
 
 [Back To Top](#Web_Api_Demo)
 
-# **Admin Page**
+# **Admin_Page**
 
 The admin of the website could go to a private website not viewable to customers where the admin could query the database and remove client information.
 
@@ -85,7 +85,7 @@ Admin Page jQuery and Ajax
 
 [Back To Top](#Best_Price_Insurance)
 
-# **Api Controller**
+# **Api_Controller**
 
 Here is the code for my API controller. For this project I only used Get requests and a Delete request. For the scope of this project I felt those are the only ones that I needed. In this project I used an entity framework controller on the api.
 
@@ -100,7 +100,7 @@ In my routing config file I stuck with the default route. In the past i've used 
 
 [Back To Top](#Web_Api_Demo)
 
-# **Home Controller**
+# **Home_Controller**
 
 Inside of my Home Controller I wrote the logic that proccessed the form information and stored it into the database. This home controller also sent the data back out to the ViewQuote, and Admin pages.
 ![alt text](https://github.com/Tmc802/Best_Price_Insurance/blob/master/InsurancePolicyApi/BP%20insurance%20images/BPHomeController.jpg)
