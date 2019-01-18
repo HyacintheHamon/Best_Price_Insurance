@@ -33,7 +33,7 @@ The ViewQuote page
 
 # **Admin_Page**
 
-The admin of the website could go to a private website not viewable to customers where the admin could query the database and remove client information.
+The admin of the website could go to a private view not viewable to customers where the admin could query the database and remove client information.
 
 ![alt text](https://github.com/Tmc802/Best_Price_Insurance/blob/master/InsurancePolicyApi/BP%20insurance%20images/BPhomeAdminUrl.jpg)
 
